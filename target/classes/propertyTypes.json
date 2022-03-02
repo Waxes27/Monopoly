@@ -1,0 +1,11 @@
+{
+  "station"       : "station",
+  "water"         : "utilities",
+  "electric"      : "utilities",
+  "go"            : "payment",
+  "property"      : "property",
+  "chance"        : "chance",
+  "chest"         : "chest",
+  "jail"          : "jail",
+  "free parking"  : "free parking"
+}
