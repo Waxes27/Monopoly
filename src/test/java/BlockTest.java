@@ -11,9 +11,12 @@ import java.util.ArrayList;
 public class BlockTest {
     public Board board = new Board();
 
+    public BlockTest() throws IOException {
+    }
+
 
     @Test
-    public void testBlockPropertiesNames(){
+    public void testBlockPropertiesNames() throws IOException {
         Dotenv propertyName = Dotenv.load();
 
         for (int i = 1; i <= 3; i++) {
@@ -49,7 +52,7 @@ public class BlockTest {
     public void testBlockPropertyTypesStations() throws IOException {
         Board board = new Board();
         for (int i = 5; i < 40; i = i + 10) {
-            new PropertyTypes().initBlockType(board.getBlockAtIndex(i));
+            board.getBlockAtIndex(i);
             assertEquals("station",board.getBlockAtIndex(i).getType());
         }
     }

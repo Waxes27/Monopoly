@@ -5,13 +5,14 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 import java.util.ArrayList;
 
-public class Parking implements Block {
+public class Property implements Block {
+
     private int id;
     private ArrayList playerList;
     private String name;
     private String type;
 
-    public Parking(int i){
+    public Property(int i){
         setId(i);
         setName(Dotenv.load().get(String.valueOf(i)));
     }
