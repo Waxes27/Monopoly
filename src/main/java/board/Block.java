@@ -11,6 +11,7 @@ public class Block {
     private String type;
 
     public Block(int id){
+
         setId(id);
     }
 

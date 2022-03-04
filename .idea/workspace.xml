@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137c2761-4eaf-4d45-bbef-bb6ca5954c0c" name="Changes" comment="" />
+    <list default="true" id="137c2761-4eaf-4d45-bbef-bb6ca5954c0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monopoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monopoly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlockTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25OJtEW7fO4sIO0Zh4pQ6XGytql" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,21 +47,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="JUnit.BlockTest">
+    <configuration name="Monopoly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Monopoly" />
+      <module name="Monopoly" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Monopoly" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BlockTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BlockTest.testBlockPropertyTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Monopoly" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlockTest" />
-      <option name="METHOD_NAME" value="testBlockPropertyTypes" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,10 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BlockTest" />
+        <item itemvalue="Application.Monopoly" />
         <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesChance" />
         <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesFree" />
         <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesStations" />
-        <item itemvalue="JUnit.BlockTest.testBlockPropertyTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +124,17 @@
       <updated>1645392414439</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
