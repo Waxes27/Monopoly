@@ -1,12 +1,10 @@
 import board.Board;
-import board.PropertyTypes;
+import board.blocks.PropertyPackage.PropertyTypes;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
-
-import java.util.ArrayList;
 
 public class BlockTest {
     public Board board = new Board();

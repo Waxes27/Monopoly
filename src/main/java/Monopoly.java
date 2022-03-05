@@ -1,6 +1,4 @@
-import board.Block;
 import board.Board;
-import board.PropertyTypes;
 
 import java.io.IOException;
 

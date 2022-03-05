@@ -1,0 +1,6 @@
+board/blocks/PropertyPackage/Property.class
+board/blocks/PropertyPackage/Parking.class
+board/blocks/PropertyPackage/PropertyTypes.class
+board/blocks/Block.class
+board/blocks/PropertyPackage/Station.class
+board/Player/Player.class

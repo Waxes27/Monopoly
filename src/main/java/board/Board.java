@@ -1,6 +1,14 @@
 package board;
 
-import board.blocks.*;
+
+
+import board.blocks.Block;
+import board.blocks.Chance;
+import board.blocks.Chest;
+import board.blocks.PropertyPackage.Parking;
+import board.blocks.PropertyPackage.Property;
+import board.blocks.PropertyPackage.PropertyTypes;
+import board.blocks.PropertyPackage.Station;
 
 import java.io.IOException;
 import java.util.ArrayList;

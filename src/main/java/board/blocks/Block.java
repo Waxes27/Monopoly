@@ -1,4 +1,4 @@
-package board;
+package board.blocks;
 
 import io.github.cdimascio.dotenv.Dotenv;
 

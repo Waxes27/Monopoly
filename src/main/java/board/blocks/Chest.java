@@ -1,6 +1,5 @@
 package board.blocks;
 
-import board.Block;
 import io.github.cdimascio.dotenv.Dotenv;
 
 import java.util.ArrayList;

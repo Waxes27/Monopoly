@@ -1,5 +1,6 @@
-package board;
+package board.blocks.PropertyPackage;
 
+import board.blocks.Block;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONObject;
 

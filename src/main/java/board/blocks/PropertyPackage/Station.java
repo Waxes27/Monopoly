@@ -1,17 +1,19 @@
-package board.blocks;
+package board.blocks.PropertyPackage;
 
-import board.Block;
+import board.Player.Player;
+import board.blocks.Block;
 import io.github.cdimascio.dotenv.Dotenv;
 
 import java.util.ArrayList;
 
-public class Parking implements Block {
+public class Station implements Block {
     private int id;
     private ArrayList playerList;
     private String name;
     private String type;
+    private Player owner;
 
-    public Parking(int i){
+    public Station(int i){
         setId(i);
         setName(Dotenv.load().get(String.valueOf(i)));
     }
