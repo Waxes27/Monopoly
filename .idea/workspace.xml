@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137c2761-4eaf-4d45-bbef-bb6ca5954c0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Chance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Chest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/propertiesTemplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Monopoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monopoly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/board/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/board/blocks/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/board/blocks/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/blocks/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BlockTest">
+  <component name="RunManager" selected="Makefile Target.git">
     <configuration name="Monopoly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Monopoly" />
       <module name="Monopoly" />
@@ -84,16 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockTest.testBlockPropertyTypesStations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Monopoly" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlockTest" />
-      <option name="METHOD_NAME" value="testBlockPropertyTypesStations" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,13 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="git" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="git" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.git" />
         <item itemvalue="JUnit.BlockTest" />
         <item itemvalue="Application.Monopoly" />
         <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesChance" />
         <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesFree" />
-        <item itemvalue="JUnit.BlockTest.testBlockPropertyTypesStations" />
       </list>
     </recent_temporary>
   </component>
