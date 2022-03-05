@@ -24,8 +24,6 @@ public class BlockTest {
 
     @Test
     public void testBlockPropertyTypes() throws IOException {
-        Board board = new Board();
-
         new PropertyTypes().initBlockType(board.getBlockAtIndex(5));
         new PropertyTypes().initBlockType(board.getBlockAtIndex(0));
         new PropertyTypes().initBlockType(board.getBlockAtIndex(12));
@@ -48,7 +46,6 @@ public class BlockTest {
     }
     @Test
     public void testBlockPropertyTypesStations() throws IOException {
-        Board board = new Board();
         for (int i = 5; i < 40; i = i + 10) {
             board.getBlockAtIndex(i);
             assertEquals("station",board.getBlockAtIndex(i).getType());
@@ -58,7 +55,6 @@ public class BlockTest {
 
     @Test
     public void testBlockPropertyTypesFreeParking() throws IOException {
-        Board board = new Board();
         new PropertyTypes().initBlockType(board.getBlockAtIndex(20));
         assertEquals("free parking",board.getBlockAtIndex(20).getType());
     }
@@ -66,7 +62,6 @@ public class BlockTest {
 
     @Test
     public void testBlockPropertyTypesChance() throws IOException {
-        Board board = new Board();
         int[] listOfChance = {7,22,36};
 
 
@@ -78,7 +73,6 @@ public class BlockTest {
 
     @Test
     public void testBlockPropertyTypesCommunityChest() throws IOException {
-        Board board = new Board();
         int[] listOfChance = {2,17,33};
 
 
@@ -86,6 +80,12 @@ public class BlockTest {
             new PropertyTypes().initBlockType(board.getBlockAtIndex(i));
             assertEquals("chest",board.getBlockAtIndex(i).getType());
         }
+    }
+
+    @Test
+    public void testBlockPlayerList() throws IOException {
+        System.out.println(board.getBlockAtIndex(0).getPlayerList());
+
     }
 
 
