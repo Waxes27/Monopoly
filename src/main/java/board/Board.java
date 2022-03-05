@@ -1,7 +1,4 @@
 package board;
-
-
-
 import board.blocks.Block;
 import board.blocks.Chance;
 import board.blocks.Chest;
