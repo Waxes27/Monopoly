@@ -1,8 +1,14 @@
 package board.blocks;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.cdimascio.dotenv.Dotenv;
+import org.json.simple.JSONObject;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.Objects;
 
 public class Chest implements Block {
 
@@ -54,5 +60,17 @@ public class Chest implements Block {
     @Override
     public void setPlayerList(ArrayList playerList) {
         this.playerList = playerList;
+    }
+
+    @Override
+    public Map setAttributes() throws IOException {
+        File file = new File(
+                Objects.requireNonNull(this.getClass().getClassLoader()
+                        .getResource("propertiesTemplate.json")).getFile()
+        );
+        ObjectMapper mapper = new ObjectMapper();
+        JSONObject json = mapper.readValue(file, JSONObject.class);
+        System.out.println(json);
+        return json;
     }
 }

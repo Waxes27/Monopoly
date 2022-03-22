@@ -46,6 +46,10 @@ public class Board {
         }
     }
 
+    public ArrayList<Block> getListOfBlocks() {
+        return listOfBlocks;
+    }
+
     public Block getBlockAtIndex(int index) throws IOException {
         /*
         Get a Block object at a specific index

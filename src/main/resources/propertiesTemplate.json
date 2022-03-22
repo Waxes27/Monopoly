@@ -19,12 +19,6 @@
       "buildings": 0,
       "mortgaged": false,
       "probability": 2.1314,
-      "rel": {
-        "Square": "vine street",
-        "Probability % (Jail Short)": 2.1314,
-        "Rank": 36,
-        "Probability % (Jail Long)": 2.0073
-      },
       "ohousecost": 50,
       "oprice": 60,
       "averageProbability": 2.06935
